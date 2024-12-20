@@ -94,3 +94,15 @@
 /Users/mariamibrahim/SOAPService/obj/Debug/net8.0/SOAPService.csproj.AssemblyReference.cache
 /Users/mariamibrahim/SOAPService/obj/Debug/net8.0/SOAPService.MvcApplicationPartsAssemblyInfo.cs
 /Users/mariamibrahim/SOAPService/obj/Debug/net8.0/SOAPServ.BD524149.Up2Date
+/Users/mariamibrahim/SOAPService/obj/Debug/net8.0/SOAPService.sourcelink.json
+/Users/mariamibrahim/SOAPService/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll
+/Users/mariamibrahim/SOAPService/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/mariamibrahim/SOAPService/bin/Debug/net8.0/Microsoft.Extensions.Caching.Abstractions.dll
+/Users/mariamibrahim/SOAPService/bin/Debug/net8.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/mariamibrahim/SOAPService/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/mariamibrahim/SOAPService/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/mariamibrahim/SOAPService/bin/Debug/net8.0/Microsoft.Extensions.Logging.dll
+/Users/mariamibrahim/SOAPService/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/mariamibrahim/SOAPService/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
+/Users/mariamibrahim/SOAPService/bin/Debug/net8.0/Microsoft.Extensions.Primitives.dll
+/Users/mariamibrahim/SOAPService/bin/Debug/net8.0/System.Diagnostics.DiagnosticSource.dll

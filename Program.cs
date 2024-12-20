@@ -5,10 +5,13 @@ using System.Threading.Tasks;
 
 // Create the ASP.NET Core web server
 var builder = WebApplication.CreateBuilder(args);
-var app = builder.Build();
+var app = builder.Build(); // Ensure app is defined before usage
 
 // Log for debugging
 Console.WriteLine("Starting server...");
+
+// Ensure routing is configured properly
+app.UseRouting();
 
 // Map the endpoint directly for SOAP POST
 app.MapPost("/soap", async (HttpContext context) =>
@@ -35,8 +38,7 @@ app.MapPost("/soap", async (HttpContext context) =>
     }
 });
 
-// Ensure routing is configured properly
-app.UseRouting();
+// Default route
 app.Map("/", async context =>
 {
     context.Response.ContentType = "text/plain";
@@ -45,12 +47,15 @@ app.Map("/", async context =>
 
 // Run server
 Console.WriteLine("Running server on http://localhost:5000...");
-await app.StartAsync();
+await app.StartAsync(); // Start the application
 Console.WriteLine("SOAP-like server operational.");
 Console.WriteLine("Press Enter to stop the server.");
 
+// Wait for the user to press Enter before stopping the server
 Console.ReadLine();
 await app.StopAsync();
+
+
 
 
 
